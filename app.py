@@ -20,8 +20,8 @@ def init_db():
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         tanggal TEXT,
         jenis TEXT,                -- Piutang / Hutang
-        kategori TEXT,             -- Supir Truck, Supir Truck Inti, Anggota Gudang
-        jenis_pinjaman TEXT,       -- Kontan / Cicilan
+        kategori TEXT,             -- Supir Truck tangki, Supir Truck Inti, Anggota Gudang
+        jenis_pinjaman TEXT,       -- PJS / Cicilan
         jumlah REAL,
         keterangan TEXT,
         jatuh_tempo TEXT,
